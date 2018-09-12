@@ -21,11 +21,13 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        <Row shows={getRandomImages()} heading={'That Darn Star Wars Crap'}/>
-        <Row shows={getRandomImages()} heading={'More Star Wars Crap'}/>
-        <Row shows={getRandomImages()} heading={'Even More Star Wars Crap'}/>
-        <Row shows={getRandomImages()} heading={'Look at All This Star Wars Crap'}/>
-        <Row shows={getRandomImages()} heading={'All the Star Wars Crap'}/>
+        <div className="content">
+          <Row shows={getRandomImages()} heading={'That Darn Star Wars Crap'}/>
+          <Row shows={getRandomImages()} heading={'More Star Wars Crap'}/>
+          <Row shows={getRandomImages()} heading={'Even More Star Wars Crap'}/>
+          <Row shows={getRandomImages()} heading={'Look at All This Star Wars Crap'}/>
+          <Row shows={getRandomImages()} heading={'All the Star Wars Crap'}/>
+        </div>
       </div>
     );
   }

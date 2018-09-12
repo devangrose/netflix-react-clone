@@ -10,37 +10,37 @@ class Navbar extends Component {
 
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark rounded">
-        <a className="navbar-brand" href="#"><img src={netflix}/></a>
+      <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark rounded">
+        <a className="navbar-brand" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src={netflix}/></a>
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
-            <a className="nav-link">Home</a>
+            <a className="nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Home</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link">TV Shows</a>
+            <a className="nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">TV Shows</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link">Movies</a>
+            <a className="nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Movies</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link">Recently Added</a>
+            <a className="nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Recently Added</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link">My List</a>
+            <a className="nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">My List</a>
           </li>
         </ul>
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
-            <a className="nav-link"><Icon size={24} icon={search}/></a>
+            <a className="nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><Icon size={24} icon={search}/></a>
           </li>
           <li className="nav-item">
-            <a className="nav-link">DVD</a>
+            <a className="nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">DVD</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link"><Icon size={24} icon={bell}/></a>
+            <a className="nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><Icon size={24} icon={bell}/></a>
           </li>
         </ul>
-        <a className="nav-link"><img src={profilePic}/></a>
+        <a className="nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src={profilePic}/></a>
         <Icon size={24}icon={caretDown}/>
       </nav>
     )
