@@ -68,3 +68,53 @@ p {
 .card:hover .interior {
     display: inherit;
 }
+.lander {
+    text-align: center;
+    margin-top: 200px;
+}
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: .5s;
+}
+.fade-in-long {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.profile-image {
+    height:150px;
+    width:150px;
+}
+.profile-card {
+    display:inline-block;
+    margin: 20px;
+}
+.profile-card img {
+    border: 3px solid grey;
+}
+.profile-card img:hover {
+    border: 3px solid white;
+}
+.profile-card p {
+    padding-top: 10px;
+}
+p{
+    color:white;
+}
+p:hover {
+    text-decoration: none;
+}
