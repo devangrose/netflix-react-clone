@@ -17,7 +17,8 @@ class Content extends Component {
 }
 function getRandomImages() {
   var toReturn = [];
-  for(var i = 0; i < 6; i++){
+  console.log(window.width);
+  for(var i = 0; i < window.innerWidth / 250; i++){
     toReturn.push(`http://www.facetheforce.today/random/400?r=${Math.floor(Math.random() * 200)}`);
   }
   return toReturn;
