@@ -11,7 +11,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark rounded">
-        <a className="navbar-brand" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src={netflix}/></a>
+        <a className="navbar-brand" href="/"><img src={netflix}/></a>
         <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
             <a className="nav-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Home</a>

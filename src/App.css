@@ -52,6 +52,7 @@ p {
 .bigrow {
     margin-left: 40px;
     display:block;
+    overflow:visible;
 }
 .interior {
     position: absolute;
